@@ -77,7 +77,7 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: 'More',
+                        label: 'Details',
                     },
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
@@ -92,11 +92,15 @@ const config = {
                 style: 'dark',
                 links: [
                     {
-                        title: 'Docs',
+                        title: 'Pages',
                         items: [
                             {
                                 label: 'Home',
                                 to: '/docs/summary',
+                            },
+                            {
+                                label: 'Projects',
+                                to: '/docs/category/projects',
                             },
                         ],
                     },
@@ -114,7 +118,7 @@ const config = {
                         ],
                     },
                     {
-                        title: 'More',
+                        title: 'Links',
                         items: [
                             {
                                 label: 'Blog',
@@ -127,7 +131,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Built with Docusaurus - ${new Date().getFullYear()}`,
+                copyright: `Amith Koujalgi - Website (${new Date().getFullYear()})`,
             },
             prism: {
                 theme: prismThemes.github,

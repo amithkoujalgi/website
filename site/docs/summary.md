@@ -2,106 +2,64 @@
 sidebar_position: 1
 ---
 
-## Summary
+# Summary
 
-Senior Software Engineer with 11+ years of experience in designing and developing distributed systems and cloud software
-products. Led development teams and mentored junior engineers. Strong background in agile methodology, mentoring and
-leadership in engineering. Open-source contributor. Tech enthusiast. Startup mindset. Eager to acquire knowledge in
-emerging technologies and develop solutions that empower both users and businesses. Eager to apply comprehensive
+I'm a Senior Software Engineer with 11+ years of experience in designing and developing distributed systems and cloud software
+products.
+Led development teams and mentored junior engineers.
+Strong background in agile methodology, mentoring and leadership in engineering. 
+_Open-source contributor._
+_Tech enthusiast._
+_Startup mindset._
+Eager to acquire knowledge in emerging technologies and develop solutions that empower both users and businesses. Eager
+to apply comprehensive
 software development expertise to create value and impact for the company.
 
 ### Skills
 
-- **[Ollama](https://ollama.ai/download)**
-- **[Oracle JDK](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)** or
-  **[Open JDK](https://jdk.java.net/archive/)** 11.0 or above.
-- **[Maven](https://maven.apache.org/download.cgi)**
+#### Core
 
-### Start Ollama server
+- Java
+- Spring Boot
+- Spring Cloud
+- Gateway
+- Eureka
+- Redis
+- Postgres
+- MySQL
+- MongoDB
+- Keycloak
+- Kong
+- Spark
+- Docker
+- Selenium
+- Amazon Web Services (AWS)
+- Software Architecture
+- Distributed Systems
+- Microservices
+- Observability and Tracing
+- Python
+- Flask and FastAPI
+- SaaS
+- Agile Product Development
 
-The easiest way of getting started with Ollama server is with [Docker](https://docs.docker.com/get-started/overview/).
-But if you choose to run the
-Ollama server directly, **[download](https://ollama.ai/download)** the distribution of your choice
-and follow the installation process.
+#### Tools
 
-#### With Docker
+- Prometheus
+- Grafana
+- Graylog
+- Jenkins
+- Jira
+- Github Actions
+- TeamCity
 
-##### Run in CPU mode:
+#### Basic Proficiency
 
-```bash
-docker run -it -v ~/ollama:/root/.ollama -p 11434:11434 ollama/ollama
-```
-
-##### Run in GPU mode:
-
-```bash
-docker run -it --gpus=all -v ~/ollama:/root/.ollama -p 11434:11434 ollama/ollama
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated
-terminal of your code editor.
-
-The command runs the Ollama server locally at **http://localhost:11434/**.
-
-### Setup your project
-
-Get started by **creating a new Maven project** on your favorite IDE.
-
-Add the dependency to your project's `pom.xml`.
-
-```xml
-
-<dependency>
-    <groupId>io.github.amithkoujalgi</groupId>
-    <artifactId>ollama4j</artifactId>
-    <version>1.0.27</version>
-</dependency>
-```
-
-Find the latest version of the library [here](https://central.sonatype.com/artifact/io.github.amithkoujalgi/ollama4j).
-
-You might want to include an implementation of [SL4J](https://www.slf4j.org/) logger in your `pom.xml` file. For
-example,
-
-Use `slf4j-jdk14` implementation:
-
-```xml
-
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-jdk14</artifactId>
-    <version>2.0.9</version> <!--Replace with appropriate version-->
-</dependency>
-```
-
-or use `logback-classic` implementation:
-
-```xml
-
-<dependency>
-    <groupId>ch.qos.logback</groupId>
-    <artifactId>logback-classic</artifactId>
-    <version>1.3.11</version> <!--Replace with appropriate version-->
-</dependency>
-```
-
-or use other suitable implementations.
-
-Create a new Java class in your project and add this code.
-
-```java
-public class OllamaAPITest {
-
-    public static void main(String[] args) {
-        String host = "http://localhost:11434/";
-
-        OllamaAPI ollamaAPI = new OllamaAPI(host);
-
-        ollamaAPI.setVerbose(true);
-
-        boolean isOllamaServerReachable = ollamaAPI.ping();
-
-        System.out.println("Is Ollama server alive: " + isOllamaServerReachable);
-    }
-}
-```
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- jQuery
+- Socket.io
+- Kafka
+- Cassandra
