@@ -8,6 +8,8 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/*
+.idea/**
 *.iws
 *.iml
 *.ipr
@@ -38,3 +40,4 @@ build/
 /node_modules/
 pom.xml.*
 release.properties
+*.iml
