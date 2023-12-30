@@ -41,3 +41,4 @@ build/
 pom.xml.*
 release.properties
 *.iml
+*.iml
