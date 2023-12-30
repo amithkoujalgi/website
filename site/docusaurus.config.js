@@ -81,7 +81,7 @@ const config = {
                     },
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
-                        href: 'https://github.com/amithkoujalgi/website/blog',
+                        href: 'https://github.com/amithkoujalgi/',
                         label: 'GitHub',
                         position: 'right',
                     },

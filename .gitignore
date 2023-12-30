@@ -35,5 +35,6 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
+/node_modules/
 pom.xml.*
 release.properties
