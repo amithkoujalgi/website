@@ -4,10 +4,11 @@ sidebar_position: 1
 
 # Summary
 
-I'm a Senior Software Engineer with 11+ years of experience in designing and developing distributed systems and cloud software
+I'm a Senior Software Engineer with 11+ years of experience in designing and developing distributed systems and cloud
+software
 products.
 Led development teams and mentored junior engineers.
-Strong background in agile methodology, mentoring and leadership in engineering. 
+Strong background in agile methodology, mentoring and leadership in engineering.
 _Open-source contributor._
 _Tech enthusiast._
 _Startup mindset._
@@ -17,49 +18,12 @@ software development expertise to create value and impact for the company.
 
 ### Skills
 
-#### Core
-
-- Java
-- Spring Boot
-- Spring Cloud
-- Gateway
-- Eureka
-- Redis
-- Postgres
-- MySQL
-- MongoDB
-- Keycloak
-- Kong
-- Spark
-- Docker
-- Selenium
-- Amazon Web Services (AWS)
-- Software Architecture
-- Distributed Systems
-- Microservices
-- Observability and Tracing
-- Python
-- Flask and FastAPI
-- SaaS
-- Agile Product Development
+`Java`,  `Spring Boot`,  `Spring Cloud`,  `Gateway`,  `Eureka`,  `Redis`,  `Postgres`,  `MySQL`,  `MongoDB`,  `Kong`,  `Spark`,  `Docker`,  `Selenium`,  `Amazon Web Services (AWS)`,  `Software Architecture`,  `Distributed Systems`,  `Microservices`,  `Observability and Tracing`,  `Python`,  `Flask and FastAPI`,  `SaaS`,  `Agile Product Development`
 
 #### Tools
 
-- Prometheus
-- Grafana
-- Graylog
-- Jenkins
-- Jira
-- Github Actions
-- TeamCity
+`Keycloak`, `Prometheus`, `Grafana`, `Graylog`, `Jenkins`, `Jira`, `Github Actions`,
 
 #### Basic Proficiency
 
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- jQuery
-- Socket.io
-- Kafka
-- Cassandra
+`HTML`, `CSS`, `JavaScript`, `Bootstrap`, `jQuery`, `Socket.io`, `Kafka`, `Cassandra`

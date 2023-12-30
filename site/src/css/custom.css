@@ -36,3 +36,7 @@
 .hero__subtitle {
     font-size: 1.2rem;
 }
+
+h1 {
+    font-size: 30px !important;
+}
