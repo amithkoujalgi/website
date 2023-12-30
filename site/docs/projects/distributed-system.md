@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Stock Market Simulation with Distributed Systems and Observability
+# Distributed Systems and Observability
 
 This project is centered around the simulation of a stock market environment through the utilization of distributed
 systems and a message broker for seamless communication among dierent components of the system. In this simulation,

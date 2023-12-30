@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Workflow Orchestration with Netflix Conductor with Observability Setup
+# Workflow Orchestration with Conductor
 
 This is a project featuring seamless workflow orchestration with Netflix's Conductor framework with Spring Boot apps
 registered as task workers that execute the tasks of configured workflows.
