@@ -1,6 +1,6 @@
 ---
 slug: release-post
-title: Release
+title: Ollama4j Release
 authors: [ amith ]
 tags: [ Java, AI, LLM, GenAI, GenerativeAI, Ollama, Ollama4j, OpenSource, Developers
 ]
