@@ -2,13 +2,15 @@
 sidebar_position: 1
 ---
 
-# Intro
+## Summary
 
-Let's get started with **Ollama4j**.
+Senior Software Engineer with 11+ years of experience in designing and developing distributed systems and cloud software
+products. Led development teams and mentored junior engineers. Strong background in agile methodology, mentoring and
+leadership in engineering. Open-source contributor. Tech enthusiast. Startup mindset. Eager to acquire knowledge in
+emerging technologies and develop solutions that empower both users and businesses. Eager to apply comprehensive
+software development expertise to create value and impact for the company.
 
-## Getting Started
-
-### What you'll need
+### Skills
 
 - **[Ollama](https://ollama.ai/download)**
 - **[Oracle JDK](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)** or
