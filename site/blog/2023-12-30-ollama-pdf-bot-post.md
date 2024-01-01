@@ -2,14 +2,14 @@
 slug: ollama-pdf-bot-release-post
 title: Ollama PDF Bot
 authors: [ amith ]
-tags: [ Bot, Innovation, DocumentInteraction, ConversationalAI, Technology, Ollama, PDFBot
-]
+tags: [ Document Interaction, Conversational AI, LLM, PDF Bot, AI, GenAI, Generative AI, Ollama, Open Source, LangChain, StreamLit, ChatBot ]
 ---
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Hello LLM Enthusiasts!
+Hello LLM enthusiasts!
 
 I wanted to share the details about a project that I put together while exploring LLMs and trying
 out some ideas.
@@ -48,6 +48,3 @@ Watch the demo:
 🚀 **Try it out now:** https://github.com/amithkoujalgi/ollama-pdf-bot
 
 Feel free to explore and share your thoughts! 💡
-
-#DocumentInteraction #ConversationalAI #LLM #Ollama #PDFBot #AI #LLM #GenAI #GenerativeAI #Ollama #OpenSource
-
