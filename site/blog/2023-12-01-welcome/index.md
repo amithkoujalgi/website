@@ -2,7 +2,7 @@
 slug: welcome
 title: Welcome
 authors: [ amith ]
-tags: [ Hello World]
+tags: [ Hello World ]
 ---
 
-Welcome Java Developers!
+Welcome to my blog!
