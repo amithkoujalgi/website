@@ -9,36 +9,45 @@ tags: [ Bot, Innovation, DocumentInteraction, ConversationalAI, Technology, Olla
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-
 Hello LLM Enthusiasts!
 
-I wanted to share a project I've been working on – a bot that takes document interaction to the next level! 🤖💼
+I wanted to share the details about a project that I put together while exploring LLMs and trying
+out some ideas.
 
-📂 What does it do?
+#### What is it?
 
-This bot is designed to accept PDF documents and allows you to ask questions directly on them. 🚀 Imagine a seamless experience where you can engage with your documents in a conversational manner! 🗂️💬
+Imagine an experience where you can engage with your text documents 📄 in a conversational 💬 manner!
+This is exactly what it is. **A PDF Bot** 🤖. It is a chatbot that accepts PDF documents and lets you have conversation
+over it.
 
-🔍 How does it work?
+#### How is this helpful?
 
-Powered by advanced Language Models (LLMs), the bot brings a new dimension to document understanding. 🌐🧠 Thanks to the magic of Ollama, the LLMs are downloaded and served dynamically, ensuring the latest and greatest capabilities for document analysis! 🚀🔗
+- **_Talk to your documents_**: Interact with your PDFs and extract the information in a way that you'd like 📄✨. This could
+  prove helpful in summarising the PDF, or to fetch
+  specific details from a long document or to list/format data in a structure you'd like and much more!
+- **_Choose your LLM_**: Switch to a different model that works for your needs. You control the system according to your
+  requirements.
+- **_Local Setup_**: The LLMs and the chat app is setup locally. Your data does not leave your computer!
 
-🌐 Why is this special?
+#### How does it work?
 
-- Interactive PDFs: Say goodbye to static documents! 📄✨ Interact with your PDFs like never before.
-- Conversational Interface: Ask questions, seek information, and get intelligent responses in a conversational format.
-- Dynamic LLMs: Always up-to-date with the latest language models, thanks to Ollama's seamless integration.
-🙌 How to Experience it:
-Simply upload your PDF documents, and start a conversation! The bot is ready to assist you in unlocking the full potential of your documents. 💡🚀
+The system consists of an app, LLM and a question-answering module.
+The app is the interface for the user - where the user can upload PDF document and then ask questions. (built
+with [StreamLit](https://streamlit.io/)).
+The app connects to a module (built with [LangChain](https://www.langchain.com/)) that loads the PDF, extracts text,
+splits it into smaller chunks, generates embeddings from
+the text using LLM served via [Ollama](https://ollama.ai/) (a tool to manage and run LLMs locally) and creates a
+vectorstore for information
+retrieval.
+It then sets up a question-answering system that enables user to have a conversation with the system.
 
 Watch the demo:
 
 <iframe width="500" height="315" src="https://www.youtube.com/embed/QcI1oVNvInM" title="PDF Bot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-🎉 Try it out now: https://github.com/amithkoujalgi/ollama-pdf-bot
+🚀 **Try it out now:** https://github.com/amithkoujalgi/ollama-pdf-bot
 
-🚀 Excited to bring a new wave of innovation to document interaction! Let me know your thoughts and feel free to dive in and explore. Your feedback is invaluable! 🚀💡
+Feel free to explore and share your thoughts! 💡
 
-#Bot #Innovation #DocumentInteraction #ConversationalAI #Technology #Ollama #PDFBot
-
-Feel free to customize the content based on your project's specifics and add any relevant hashtags or links. Happy sharing! 🌟
+#DocumentInteraction #ConversationalAI #LLM #Ollama #PDFBot #AI #LLM #GenAI #GenerativeAI #Ollama #OpenSource
 
